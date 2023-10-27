@@ -1,0 +1,1181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Handlee"; 
+    src: url("Fonts/Handlee-Regular.ttf") format("truetype"); 
+    font-size: 20px;
+    font-style: normal; 
+}    
+
+:root {
+    
+/* HTML2 */
+    --sidebar-background-color: hsl(30, 17%, 98%);
+    --sidebar-menu-color: hsl(270, 4%, 9%);
+    --sidebar-icons-color: #411658;
+    --sidebar-icons-hover-color: #fff;
+    --sidebar-icons-hover-background-color: #281d2e;
+    --sidebar-tooltip-color: #fff;
+    --sidebar-tooltip-background-color: #281d2e;
+    --header-background-color: hsl(32, 32%, 92%);
+    --header-color: hsl(270, 4%, 9%);
+    --moon-shadow: #89828b;
+    --second-header-background-color: hsl(60, 43%, 99%);
+    --second-header-color: hsl(281, 75%, 19%);
+    --pages-content-color: #222;
+    --pages-content-background: #fff;
+    --clue-image-background-color: #191711;
+    --statement-image-background-color: #171510;
+    --text-label-background-color: hsl(270, 4%, 18%);
+    --text-label-color: #fff;
+    --corner-button-background-color: #fff;
+    --corner-button-color: #350a4e;
+
+/* HTML 3 */
+    --app-background-color: hsl(276, 42%, 95%);
+    --app-title-color: black;
+    --app-second-title-color: rgb(101, 18, 112);
+    --app-border-color: #333;
+    --answer-button-background-color: #ffffff;
+    --answer-button-color: #222;
+    --answer-button-color-hover: #fff;
+    --answer-button-background-color-hover: rgb(62, 4, 70);
+    --next-button-background-color: rgb(62, 4, 70);
+    --next-button-color: #fff;
+    --question-color: #3e3941;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {    
+    /* HTML2 */
+    --sidebar-background-color: hsl(30, 17%, 98%);
+    --sidebar-menu-color: hsl(270, 4%, 9%);
+    --sidebar-icons-color: #411658;
+    --sidebar-icons-hover-color: #fff;
+    --sidebar-icons-hover-background-color: #281d2e;
+    --sidebar-tooltip-color: #fff;
+    --sidebar-tooltip-background-color: #281d2e;
+    --header-background-color: hsl(32, 32%, 92%);
+    --header-color: hsl(270, 4%, 9%);
+    --moon-shadow: #89828b;
+    --second-header-background-color: hsl(60, 43%, 99%);
+    --second-header-color: hsl(281, 75%, 19%);
+    --pages-content-color: #222;
+    --pages-content-background: #fff;
+    --clue-image-background-color: #191711;
+    --statement-image-background-color: #171510;
+    --text-label-background-color: hsl(270, 4%, 18%);
+    --text-label-color: #fff;
+    --corner-button-background-color: #fff;
+    --corner-button-color: #350a4e;
+    color-scheme: light;
+
+    /* HTML 3 */
+    --app-background-color: hsl(276, 42%, 95%);
+    --app-title-color: black;
+    --app-second-title-color: rgb(101, 18, 112);
+    --app-border-color: #333;
+    --answer-button-background-color: #ffffff;
+    --answer-button-color: #222;
+    --answer-button-color-hover: #fff;
+    --answer-button-background-color-hover: rgb(62, 4, 70);
+    --next-button-background-color: rgb(62, 4, 70);
+    --next-button-color: #fff;
+    --question-color: #3e3941;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+
+:root {
+    /* HTML2 */
+    --sidebar-background-color: hsl(278, 80%, 6%);
+    --sidebar-menu-color: hsl(274, 26%, 95%);
+    --sidebar-icons-color: hsl(274, 26%, 95%);
+    --sidebar-icons-hover-color: #281d2e;
+    --sidebar-icons-hover-background-color: #ffff;
+    --sidebar-tooltip-color: #281d2e;
+    --sidebar-tooltip-background-color: #ffffffc2;
+    --header-background-color: hsl(288, 36%, 19%);
+    --header-color: hsl(274, 41%, 97%);
+    --moon-shadow: #89828b;
+    --second-header-background-color: hsla(278, 11%, 40%, 0.904);
+    --second-header-color: hsla(282, 26%, 93%, 0.884);
+    --pages-content-color: #ede5f0;
+    --pages-content-background: #23152b;
+    --clue-image-background-color: #191711;
+    --statement-image-background-color: #171510;
+    --text-label-background-color: hsl(270, 4%, 18%);
+    --text-label-color: #fff;
+    --corner-button-background-color: #350a4e;
+    --corner-button-color: #fff;
+    color-scheme: dark;
+
+    /* HTML 3 */
+    --app-background-color: hsl(278, 80%, 6%);
+    --app-title-color: hsl(274, 41%, 97%);
+    --app-second-title-color: hsla(282, 26%, 93%, 0.884);
+    --app-border-color: #fff;
+    --answer-button-background-color: black;
+    --answer-button-color: #fff;
+    --answer-button-color-hover: #fff;
+    --answer-button-background-color-hover: black;
+    --next-button-background-color: hsl(34, 37%, 88%);
+    --next-button-color: #fff;
+    --question-color: hsl(36, 79%, 78%);
+}
+}
+:root[data-theme="light"] {
+        /* HTML 2 */
+        --sidebar-background-color: hsl(30, 17%, 98%);
+        --sidebar-menu-color: hsl(270, 4%, 9%);
+        --sidebar-icons-color: #411658;
+        --sidebar-icons-hover-color: #fff;
+        --sidebar-icons-hover-background-color: #281d2e;
+        --sidebar-tooltip-color: #fff;
+        --sidebar-tooltip-background-color: #281d2e;
+        --header-background-color: hsl(32, 32%, 92%);
+        --header-color: hsl(270, 4%, 9%);
+        --moon-shadow: #89828b;
+        --second-header-background-color: hsl(60, 43%, 99%);
+        --second-header-color: hsl(281, 75%, 19%);
+        --pages-content-color: #222;
+        --pages-content-background: #fff;
+        --clue-image-background-color: #191711;
+        --statement-image-background-color: #171510;
+        --text-label-background-color: hsl(270, 4%, 18%);
+        --text-label-color: #fff;
+        --corner-button-background-color: #fff;
+        --corner-button-color: #350a4e;
+        color-scheme: light;
+        
+        /* HTML 3 */
+        --app-background-color: hsl(276, 42%, 95%);
+        --app-title-color: black;
+        --app-second-title-color: rgb(101, 18, 112);
+        --app-border-color: #333;
+        --answer-button-background-color: #ffffff;
+        --answer-button-color: #222;
+        --answer-button-color-hover: #fff;
+        --answer-button-background-color-hover: rgb(62, 4, 70);
+        --next-button-background-color: rgb(62, 4, 70);
+        --next-button-color: #fff;
+        --question-color: #3e3941;
+}
+
+:root[data-theme="dark"] {
+    /* HTML2 */
+    --sidebar-background-color: hsl(278, 80%, 6%);
+    --sidebar-menu-color: hsl(274, 26%, 95%);
+    --sidebar-icons-color: hsl(274, 26%, 95%);
+    --sidebar-icons-hover-color: #281d2e;
+    --sidebar-icons-hover-background-color: #ffff;
+    --sidebar-tooltip-color: #281d2e;
+    --sidebar-tooltip-background-color: #ffffffc2;
+    --header-background-color: hsl(288, 36%, 19%);
+    --header-color: hsl(274, 41%, 97%);
+    --moon-shadow: #89828b;
+    --second-header-background-color: hsla(278, 11%, 40%, 0.904);
+    --second-header-color: hsla(282, 26%, 93%, 0.884);
+    --pages-content-color: #ede5f0;
+    --pages-content-background: #23152b;
+    --clue-image-background-color: #191711;
+    --statement-image-background-color: #171510;
+    --text-label-background-color: hsl(270, 4%, 18%);
+    --text-label-color: #fff;
+    --corner-button-background-color: #350a4e;
+    --corner-button-color: #fff;
+    color-scheme: dark;
+
+    /* HTML 3 */
+    --app-background-color: hsl(278, 80%, 6%);
+    --app-title-color: hsl(274, 41%, 97%);
+    --app-second-title-color: hsla(282, 26%, 93%, 0.884);
+    --app-border-color: #fff;
+    --answer-button-background-color: black;
+    --answer-button-color: #fff;
+    --answer-button-color-hover: black;
+    --answer-button-background-color-hover: #fff;
+    --next-button-background-color: hsl(34, 37%, 88%);
+    --next-button-color: black;
+    --question-color: hsl(36, 79%, 78%);
+}
+
+
+/*HTML 1 */
+
+.body-page-1 {
+    height: 100%;
+    overflow: auto;
+}
+
+footer {
+    height:20px;
+    align-items: center;
+    text-align: center;
+    background-color:#d8d6d0;
+    color:var(--footer-color);
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#main-page-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 0;
+    z-index: 1;
+    padding: 20px; 
+    text-align: center;
+    background-image: url("Pictures/Background5.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 36px;
+    font-family: 'Handlee', sans-serif;
+    overflow: auto;
+}
+
+.page-1-container {
+    background-image: url("Pictures/Paper2.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+.page-1-text {
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px; 
+    text-align: center;
+    width: 380px;
+}
+
+#header-page-1 {
+    color: hsl(281, 75%, 19%);
+    background-color:#e7e2e2a2 ;
+    margin-bottom: 40px;
+    margin-top:20px;
+    
+}
+
+#content-page-1a {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#question1 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.yes-no {
+    width: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Handlee', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    perspective: 800px;
+}
+
+.try-again-popup {
+    color:#222;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    border-style:outset;
+    border-width: 0.2cap;
+    border-color:#333;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color:#411658;
+}
+
+
+/*HTML 2 */
+
+.body-page-2 {
+    height: 100%;
+    min-height: 550px;
+    overflow: hidden;
+}
+
+.theme-wrapper{
+    display: grid;
+    padding: 1rem;
+    position: fixed;
+    place-items: center;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+}
+
+.theme-wrapper2{
+    display: grid;
+    padding: 1rem;
+    position: fixed;
+    place-items: center;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+}
+.theme-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.theme {
+    border-radius: 100vmax;
+    padding: .6em;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    position: relative;
+    background: var(--header-background-color);
+    color: var(--header-color);
+    border-style: ridge;
+    border-color: #d79aea;
+}
+
+.main-page-2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("Pictures/Background5.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+    left: 80px;
+    transition: all 0.5s ease;
+    width: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0;
+    float: left;
+}
+
+.content {
+    display: none;    
+}
+
+.text-box {
+    position: fixed;
+    top: 120px; 
+    right: 10px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    background-color: #fffeff98;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 80px;
+    background-color: var(--sidebar-background-color);
+    padding: 0.4rem 0.8rem;
+    transition: all 0.5s ease;
+    flex: 1;
+    z-index: 3;
+}
+
+.sidebar.active ~ .main-page-2 {
+    left: 270px;
+    width: calc(100% - 270px);
+}
+
+.sidebar.active {
+    width: 270px;
+    z-index: 3;
+    float: left;
+}
+
+.sidebar #btn-menu {
+    position: absolute;
+    color:var(--sidebar-icons-color);
+    top: .4rem;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.sidebar.active #btn-menu {
+    left: 90%;
+}
+
+.sidebar .top .logo {
+    color: var(--sidebar-menu-color);
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    font-size: 18px;
+}
+
+#briefcase {
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.sidebar.active .top .logo {
+    opacity: 1;
+}
+
+.top .logo i {
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+#btn-menu {
+    font-size: 24px !important;
+}
+
+#home-button, #suspects-button, #weapons-button, #locations-button, #clues-button, #statements-button {
+    font-size: 20px !important;
+    margin-left: 3px;
+}
+
+.nav-item, .tooltip {
+    font-size: 16px !important;
+}
+
+.sidebar ul li {
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    width: 90%;
+    margin: 0.8rem auto;
+    line-height: 50px;
+    vertical-align: middle;
+    display: flex;
+}
+
+.sidebar ul li a {
+    color: var(--sidebar-icons-color);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+}
+
+.sidebar ul li a:hover {
+    background-color: var(--sidebar-icons-hover-background-color);
+    color: var(--sidebar-icons-hover-color);
+    width: 100%;
+}
+
+.sidebar ul li a i {
+    min-width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+
+.sidebar .nav-item {
+    opacity: 0;
+}
+
+.sidebar.active .nav-item {
+    opacity: 1;
+}
+.sidebar.active .nav-item:hover {
+   width: 80%;
+}
+
+.sidebar ul li .tooltip {
+    position: absolute;
+    left: 125px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+    border-radius: .6rem;
+    padding: .4rem 1.2rem;
+    line-height: 1.8rem;
+    z-index: 20;
+    opacity: 0;
+    min-width: 100px;
+}
+
+.sidebar ul li:hover .tooltip {
+    opacity: 1;
+    background-color: var(--sidebar-tooltip-background-color);
+    color:var(--sidebar-tooltip-color)
+}
+
+.sidebar.active ul li .tooltip {
+    display: none;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.header-page-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    min-width: calc(100% - 80px);
+    max-width: calc(100% - 270px);
+    background-color: var(--header-background-color);
+    color: var(--header-color);
+    font-weight: 800;
+    font-family: 'Handlee', sans-serif;
+    z-index: 2;
+    right: 0;
+}
+
+#main-title {
+    min-width: 400px;
+    font-weight: 800;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#new-moon-icon-page2 {
+    color: #12171e;
+    font-size: 40px;
+  
+}
+
+.glowing-text {
+    animation: glow-animation 1s infinite alternate;
+}
+
+@keyframes glow-animation {
+    0% {
+        text-shadow: 0 0 2px var(--moon-shadow), 0 0 7px var(--moon-shadow), 0 0 12px var(--moon-shadow);
+    }
+    100% {
+        text-shadow: 0 0 7px var(--moon-shadow), 0 0 15px var(--moon-shadow), 0 0 25px var(--moon-shadow);
+    }
+}
+.page-header {
+    min-width: calc(100% - 80px);
+    max-width: calc(100% - 270px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top:29px;
+    background-color: var(--second-header-background-color);
+    color:var(--second-header-color);
+    height: 50px;
+    border-top: 2px solid rgb(224, 206, 226);
+    border-bottom: 0.5px solid rgb(252, 251, 252) !important;
+    z-index: 1;
+    right: 0;
+}
+
+#home-header, #suspects-header, #locations-header, #weapons-header, #clues-header, #statements-header {
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.resized-picture {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.group-suspects, .group-locations, .group-weapons {
+    display: flex;
+    color: var(--pages-content-color);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    flex-direction: column;
+    margin-top: 00px;
+    background-color: #fffeff98;
+    padding: 20px;
+}
+
+.content-home {
+    display: flex;
+    color: var(--pages-content-color);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    flex-direction: column;
+    background-color: #fffeff98;
+    padding: 20px;
+}
+
+.home-image {
+    max-width: 400px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.case-intro, .logic-rules {
+    border: 1px solid rgb(249, 239, 250);
+    box-shadow: 1px 1px 5px rgb(209, 170, 214);
+    border-radius: 5px;
+    background-color: var(--pages-content-background);
+    align-items: center;
+    min-width: 100%;
+    max-width: 700px;
+    display: flex;
+    padding-left: 5px !important;
+    padding-right: 5px !important;    
+}
+
+.home-paragraph {
+    font-size: 18px;
+}
+
+.home-title {
+    font-size: 24px;
+}
+
+#logic-rules-text {
+    margin-left: 10px;
+}
+
+.lady-violet, .vice-president-mauve, .duchess-vermillion, .fire-section, .ruins-section, .forest-section, .cauldron-section, .log-section, .broom-section, .statement1, .statement2, .statement3, .clue1, .clue2 {
+    border: 1px solid rgb(249, 239, 250);
+    box-shadow: 1px 1px 5px rgb(209, 170, 214);
+    border-radius: 5px;
+    background-color: var(--pages-content-background);
+    align-items: top;
+    min-width: fit-content;
+    max-width: 700px;
+    display: flex;
+    padding-left: 5px !important;
+    padding-right: 5px !important;    
+}
+
+.lady-violet, .vice-president-mauve, .fire-section, .ruins-section, .cauldron-section, .log-section, .statement1, .statement2, .clue1, .case-intro {
+    margin-bottom: 20px;
+}
+
+.suspect-image, .location-image, .weapon-image, .statement-image {
+    max-width: 250px;
+}
+
+.home-paragraph {
+    margin-top: 20px;
+}
+
+.suspect-text, .location-text, .weapon-text, .statement-text, .case-intro-text, .logic-rules-text {
+    width: 400px;
+    color:var(--pages-content-color);
+    padding: 10px;
+}
+
+.suspect-description,.location-description, .weapon-description, .case-intro-text, .logic-rules-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.clues-content {
+    color: var(--pages-content-color);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    background-color: #fffeff98;
+    padding: 20px;
+    width: 700px;
+}
+
+.clues-image {
+    max-width: 180px;
+    margin: 10px;
+    background-color: #191711;
+    border-radius: 20px;
+}
+
+.clue-text {
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.clue1, .clue2 {
+    align-items: center;
+}
+
+.statements-content {
+    display: flex;
+    color: var(--pages-content-color);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #fffeff98;
+    padding: 20px;
+}
+
+.statement1, .statement2, .statement3 {
+    height: 200px;
+    align-items: center;
+}
+
+.statement-image {
+    height: 150px;
+    background-color: var(--statement-image-background-color);
+    border-radius: 20px;
+}
+
+.statement-text {
+    font-size: 18px;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--text-label-color);
+    background-color: rgb(126, 102, 136);
+    padding: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+#next-page2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--corner-button-background-color);
+    color: var(--corner-button-color);
+    font-size: 14px;
+}
+
+@keyframes colorChange {
+    0% { background-color: rgb(240, 190, 99); }
+    25% { background-color:rgb(235, 174, 62); }
+    50% { background-color: rgb(238, 141, 50); }
+    100% { background-color: rgb(231, 105, 2); }
+}
+
+#next-page2:hover {
+    animation: colorChange 2.5s infinite;
+    color: rgb(255, 255, 255);
+    border-color: rgb(248, 244, 222);
+    border-width: 0.1cap;
+}
+
+
+@media (max-width: 1200px) {
+    .text-box {
+        right: -200px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 781px) {
+    
+    .case-intro, .logic-rules {
+        max-width: 300px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .home-image, .statement-image, .clues-image {
+        display: none;
+    }
+
+    .group-suspects, .group-locations, .group-weapons {
+        margin-top: 200px;
+        max-width: 400px;
+    }
+
+    .lady-violet, .vice-president-mauve, .duchess-vermillion, .fire-section, .ruins-section, .forest-section, .cauldron-section, .log-section, .broom-section, .statement1, .statement2, .statement3, .clue1, .clue2 {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .suspect-image, .location-image, .weapon-image, .statement-image {
+        flex-direction: row;
+    }
+    
+    .suspect-image, .location-image, .weapon-image, .statement-image {
+        max-width: 250px;
+    }
+
+    .suspect-text, .location-text, .weapon-text, .statement-text, .case-intro-text, .logic-rules-text {
+        max-width: 350px;
+        text-align: center;
+    }
+    
+    .suspect-description,.location-description, .weapon-description, .case-intro-text, .logic-rules-text {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .clues-content, .statements-content {
+        margin-top: 50px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .statement-text, .clues-text {
+        font-size: 20px;
+    }
+    
+    .header-page-2 {
+        padding-left: 30px;
+    }
+
+    #main-title {
+        font-size: 30px;
+        padding-bottom: 7px;
+    }
+
+    #home-header, #suspects-header, #locations-header, #weapons-header, #clues-header, #statements-header {
+        font-size: 23px;
+    }
+}
+
+@media (max-height: 950px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 85%;
+}
+}
+
+@media (max-height: 850px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 95%;
+}
+
+    .content-home {
+        top: 65%;
+ }
+
+     .statements-content, .clues-content {
+        top: 55%;
+ }
+}
+
+@media (max-height: 750px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 105%;
+}
+    .content-home {
+        top: 75%;
+}
+
+    .statements-content, .clues-content {
+        top: 60%;
+}
+}
+
+@media (max-height: 700px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 115%;
+}
+    .content-home {
+        top: 80%;
+}
+
+    .statements-content, .clues-content {
+        top: 65%;
+}
+}
+
+@media (max-height: 650px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 110%;
+}
+
+}
+
+@media (max-height: 620px) {
+    .content-home {
+       top: 80%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 120%;
+}
+
+    .clues-content, .statements-content {
+        top: 65%;
+    }
+}
+
+@media (max-height: 575px) {
+    .content-home {
+       top: 85%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 130%;
+}
+
+    .clues-content, .statements-content {
+        top: 70%;
+    }
+}
+
+@media (max-height: 530px) {
+    .content-home {
+        top: 90%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 135%;
+}
+    .clues-content, .statements-content {
+        top: 75%;
+}
+}
+
+@media (max-height: 500px) {
+    .content-home {
+        top: 100%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 150%;
+}
+    .clues-content, .statements-content {
+        top: 85%;
+}
+}
+
+@media (max-height: 450px) {
+    .content-home {
+        top: 100%;
+    }
+    .group-locations, .group-weapons {
+        top: 170%;
+}
+    .group-suspects {
+        top: 175%;
+}
+    .clues-content, .statements-content {
+        top: 85%;
+}
+}
+
+@media (max-height: 300px) {
+    .content-home {
+        top: 140%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 180%;
+}
+    .group-suspects, .group-locations, .group-weapons {
+        top: 185%;
+}
+    .clues-content, .statements-content {
+        top: 95%;
+}
+}
+
+
+/*HTML 3*/
+.body-page-3 {
+    height: 100%;
+    overflow: auto;
+}
+
+.main-page-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 0;
+    z-index: 1;
+    padding: 20px; 
+    text-align: center;
+    background-image: url("Pictures/Background5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Handlee', sans-serif;
+    overflow: auto;
+}
+
+.app {
+    background: var(--app-background-color);
+    width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    border: 3px solid #f4f0f7;
+}
+.app h1, #new-moon-icon-page3 {
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 36px;
+    color: var(--app-title-color);
+}
+
+.app h2 {
+    color: var(--app-second-title-color);
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--app-border-color);
+    padding-bottom: 20px;
+}
+
+.quiz h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style:oblique
+}
+
+.btn-answer{
+    background: var(--answer-button-background-color);
+    color: var(--answer-button-color);
+    font-weight: 400;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.btn-answer:hover:not([disabled]){
+    background:var(--answer-button-background-color-hover);
+    color:var(--answer-button-color-hover);
+}
+
+.btn-answer:disabled{
+    cursor: no-drop;
+}
+
+#question {
+    color:var(--question-color);
+}
+
+#answer-buttons {
+    margin: 30px 0 30px 0;
+}
+
+#next-btn{
+    background:var(--next-button-background-color);
+    color: var(--next-button-color);
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
+
+#back-page3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--corner-button-background-color);
+    color: var(--corner-button-color);
+    font-size: 14px;
+}
+    
+#back-page3:hover {
+    animation: colorChange 2.5s infinite;
+    color: rgb(255, 255, 255);
+    border-color: rgb(248, 244, 222);
+    border-width: 0.1cap;
+}
+#new-moon-icon-page3 {
+    color: black;
+}
+
+@media (max-width: 768px) { 
+    .app {
+        width: 95%;
+        min-width:275px;
+    }
+}

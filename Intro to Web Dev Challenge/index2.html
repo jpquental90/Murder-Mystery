@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The New Moon Murder: A Murder Mystery</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+                
+    </head>
+    <body class="body-page-2">
+        <div class="sidebar">
+            <div class="top">
+                <div class="logo">
+                    <i class="bx bx-briefcase" id="briefcase"></i>
+                    <span>Detective Office</span>
+                </div>
+                <i class="bx bx-menu small" id="btn-menu"></i>
+            </div>
+            <nav>
+            <ul>
+                <li>
+                    <a href="index2.html">
+                        <i class="bx bx-home" id="home-button"></i>
+                        <span class="nav-item">Home</span>
+                    </a>
+                    <span class="tooltip">Home</span>
+                </li>
+                <li>
+                    <a href="#Suspects">
+                        <i class="fas fa-hat-wizard" id="suspects-button"></i>
+                        <span class="nav-item">Suspects</span>
+                    </a>
+                    <span class="tooltip">Suspects</span>
+                </li>
+                <li>
+                    <a href="#Locations">
+                        <i class="bx bx-current-location" id="locations-button"></i>
+                        <span class="nav-item">Locations</span>
+                    </a>
+                    <span class="tooltip">Locations</span>
+                </li>
+                <li>
+                    <a href="#Weapons">
+                        <i class="bx bx-fork" id="weapons-button"></i>
+                        <span class="nav-item">Weapons</span>
+                    </a>
+                    <span class="tooltip">Weapons</span>
+                </li>
+                <li>
+                    <a href="#Clues and Evidence">
+                        <i class="bx bx-fingerprint" id="clues-button"></i>
+                        <span class="nav-item">Clues and Evidence</span>
+                    </a>
+                    <span class="tooltip">Clues and Evidence</span>
+                </li>
+                <li>
+                    <a href="#Statements">
+                        <i class="bx bx-chat" id="statements-button"></i>
+                        <span class="nav-item">Statements</span>
+                    </a>
+                    <span class="tooltip">Statements</span>
+                </li>                
+            </ul>
+            <aside class="theme-wrapper">
+                <div class="theme-container" role="group">
+                    <button class="btnbottom theme" aria-label="Apply light theme" data-theme="light">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" width="24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                          </svg>
+                    </button>
+                    <button class="btnbottom theme" aria-label="Apply dark theme" data-theme="dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" width="24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                          </svg>  
+                    </button>
+                </div>
+            </aside>
+        </div>
+
+        <main id="main-page-2" class="main-page-2">
+            <header id="header-page-2" class="header-page-2">
+                <i class="bx bxs-circle glowing-text" id="new-moon-icon-page2"></i>
+                <span><h1 id="main-title">The New Moon Murder</h1></span>
+            </header>
+                <div class="wrapper">
+                    
+                    <div id="Home-page" class="content">
+                        <div id="page-header" class="page-header">
+                            <h3 id="home-header">Home</h3>
+                        </div>
+                        <div class="content-home" id="home-content">
+                            <div class="case-intro">
+                                <div class="case-intro-text" id="case-intro-text">
+                                    <h4 class="home-title">The case</h4>
+                                    <p class="home-paragraph">On his first case with the Investigation Institute, they sent Deductive Logico to the darkest woods he's ever seen. From the shadows, he watched a witches' sabbath, thinking he was totally hidden. So he was shocked when three witches stopped the ceremony, walked over to him, and asked him to solve the murder of their sister witch...</p>
+                                </div>
+                                <img src="pictures/Folder1.png" alt="folder" class="case-intro-image resized-picture home-image" id="case-intro-image">
+                            </div>
+                            <div class="logic-rules">
+                                <img src="pictures/Logic2.png" alt="maths equation" class="logic-rules-image resized-picture home-image" id="logic-rules-image">
+                                <div class="logic-rules-text" id="logic-rules-text">
+                                    <h4 class="home-title">Rules of logic</h4>
+                                    <ul class="home-paragraph">
+                                        <li>Each suspect was in a separate location and had access to a different weapon at the time of the murder.</li>
+                                        <strong><li>The murderer is lying. The others are telling the truth.</li></strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div id="Suspects" class="content suspects row">
+                    <div id="page-header" class="page-header">
+                        <h3 id="suspects-header">Suspects</h3>
+                    </div>
+                    <div class="group-suspects">
+                        <div class="lady-violet col-xs-3">
+                            <img src="pictures/Lady Violet1.png" alt="Lady Violet, witch with blond hair and blue eyes" class="resized-picture suspect-image">
+                            <div class="suspect-text" id="lady-violet-text">
+                                <h3 class="name">Lady Violet</h3>
+                                <p class="suspect-description">The heiress of the Violet Isles, the largest extra-judicial territory in the world.</p>
+                                <p>5'0" - Right-handed - Blue eyes - Blond hair - Virgo</p>
+                            </div>
+                        </div>
+                        <div class="vice-president-mauve col-xs-3">
+                            <div class="suspect-text" id="mauve-text">
+                                <h3 class="name">Vice President Mauve</h3>
+                                <p class="suspect-description">A vice president of TekCo Futures. If she asks you to step into her metaverse, run.</p>
+                                <p> 5'8" - Right-handed - Dark brown eyes - Black hair - Taurus</p>
+                            </div>
+                            <img src="pictures/Vice President Mauve3.png" alt="Vice President Mauve, witch with black hair and brown eyes" class="resized-picture suspect-image">
+                            
+                        </div>
+                        <div class="duchess-vermillion col-xs-3">
+                            <img src="pictures/Duchess of Vermillion2.png" alt="Duchess of Vermillion, witch with white hair and grey eyes" class="resized-picture suspect-image">
+                            <div class="suspect-text" id="vermillion-text">
+                                <h3 class="name">The Duchess of Vermillion</h3>
+                                <p class="suspect-description">A tall, old woman with tall, old secrets. If she is the murderer, it certainly wouldn't be the first time.</p>
+                                <p>5'9" - Left-handed - Gray eyes - White hair - Pisces</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Locations" class="content">
+                    <div id="page-header" class="page-header">
+                        <h3 id="locations-header">Locations</h3>
+                    </div>
+                    <div class="group-locations">
+                        <div class="fire-section col-xs-3">
+                            <div class="location-text" id="fire-text">
+                                <h3 class="name">The central fire</h3>
+                                <h4 class="subtitle">Outdoors</h4>
+                                <p class="location-description">Scry the pyre fire, friar. Say that threee times fast.</p>
+                            </div>  
+                        <img src="pictures/Fire1.png" alt="fire pit in a forest" class="resized-picture location-image">
+                        </div>
+                        <div class="ruins-section col-xs-3">
+                            <img src="pictures/Ruins1.png" alt="ruins covered in moss in a forest" class="resized-picture location-image">
+                            <div class="location-text" id="ruins-text">
+                                <h3>The ancient ruins</h3>
+                                <h4>Outdoors</h4>  
+                                <p class="location-description">Covered in moss, but still recognizably those same ruins.</p>
+                            </div>
+                        </div>    
+                        <div class="forest-section col-xs-3">
+                            <div class="location-text" id="ruins-text">
+                                <h3>The thick forest</h3>
+                                <h4>Outdoors</h4>
+                                <p class="location-description">The woods are lovely, dark and deep, but an owl finds it all a hoot.</p>
+                            </div>
+                            <img src="pictures/Forest1.png" alt="forest with an owl" class="resized-picture location-image">
+                        </div>
+                    </div>                             
+                </div>
+
+                <div id="Weapons" class="content">
+                    <div id="page-header" class="page-header">
+                        <h3 id="weapons-header">Weapons</h3>
+                    </div>
+                    <div class="group-weapons">
+                        <div class="cauldron-section col-xs-3">
+                            <img src="pictures/Cauldron1.png" alt="cauldron cooking something" class="resized-picture weapon-image">
+                            <div class="weapon-text" id="cauldron-text">
+                                <h3>A cauldron</h3>
+                                <h4>Heavy-weight</h4>
+                                <p class="weapon-description">If you can pick it up, you could hit someone with it. Or you can just give them a sip.</p>
+                            </div>
+                            </div>
+                        <div class="log-section col-xs-3">
+                            <div class="weapon-text" id="log-text">
+                                <h3>A log</h3>
+                                <h4>Heavy-weight</h4>  
+                                <p class="weapon-description">A big, heavy oak log. Somebody killed the tree so that the tree could kill somebody.</p>
+                            </div>
+                            <img src="pictures/Log1.png" alt="heavy, big log on the forest ground" class="resized-picture weapon-image">     
+                        </div>
+                        <div class="broom-section col-xs-3">
+                            <img src="pictures/Broom1.png" alt="broom standing on the forest ground" class="resized-picture weapon-image">
+                            <div class="weapon-text" id="broom-text">
+                                <h3>A broom</h3>
+                                <h4>Medium-weight</h4>  
+                                <p class="weapon-description">People say that witches fly on these, but Logico's only swept with them.</p>
+                            </div>
+                        </div>                   
+                    </div>
+            </div>
+
+                <div id="clues-page" class="content">
+                    <div id="page-header" class="page-header">
+                        <h3 id="clues-header">Clues and Evidence</h3>
+                    </div>
+                    <div class="clues-content" id="clues-content">
+                        <div class="clue1">
+                            <img src="pictures/Footprints.png" alt="hanging lights" class="clues-image" id="lights-image">
+                            <p class="clue-text">A virgo was standing beneath an owl, probably organizing something, because that's how they are.</p>
+                        </div>
+                        <div class="clue2">
+                            <p class="clue-text">Surprisingly, a cauldron was not in the central fire.</p> 
+                            <img src="pictures/Fingerprint1.png" alt="fading footstep marks" class="resized-picture clues-image" id="footsteps-image">                  
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="statements-page" class="content">
+                    <div id="page-header" class="page-header">
+                        <h3 id="statements-header">Statements</h3>
+                    </div>
+                    <div class="statements-content" id="statements-content">
+                        <div class="statement1 col-xs-3">
+                            <img src="pictures/Speech1.png" alt="speech bubble" class="statement-image resized-picture" id="speech1">
+                            <div id="statement1-text" class="statement-text">
+                                <p id="statement1-description"><strong>Lady Violet:</strong> Don't believe the commoners: <br>
+                                the Duchess of Vermillion brought a broom.</p>
+                            </div>
+                        </div>
+                        <div class="statement2 col-xs-3">
+                            <div id="statement2-text" class="statement-text">
+                                <p id="statement2-description"><strong>Vice President Mauve:</strong> Well, I didn't bring a broom.</p>
+                            </div>
+                            <img src="pictures/Speech2.png" alt="speech bubble" class="statement-image resized-picture" id="speech2">    
+                        </div>
+                        <div class="statement3 col-xs-3">
+                            <img src="pictures/Speech3.png" alt="speech bubble" class="statement-image resized-picture" id="speech3">
+                            <div id="statement3-text" class="statement-text">
+                                <p id="statement3-description"><strong>The Duchess of Vermillion:</strong> And I didn't bring a log.</p>              
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+
+            </main>
+
+            <div id="text-box" class="text-box col-3">
+                <label for="Notes">Investigation Notes</label>
+                <textarea id="Notes" name="Notes" rows="20" cols="20" placeholder=" Type here"></textarea>
+            </div>    
+
+            <div id="corner-button">
+                <a href="index3.html"><button class="btn btn-warning" id="next-page2"><i class="fas fa-feather"></i> Mistery Solved</button></a>
+            </div>
+
+
+
+        <script src="script.js" type="module"></script>
+
+    </body>
+
+</html>
+  
