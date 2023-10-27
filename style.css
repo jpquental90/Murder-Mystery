@@ -32,7 +32,7 @@
     --statement-image-background-color: #171510;
     --text-label-background-color: hsl(270, 4%, 18%);
     --text-label-color: #fff;
-    --corner-button-background-color: #fff;
+    --corner-button-background-color: hsl(32, 32%, 92%);
     --corner-button-color: #350a4e;
 
 /* HTML 3 */
@@ -70,7 +70,7 @@
     --statement-image-background-color: #171510;
     --text-label-background-color: hsl(270, 4%, 18%);
     --text-label-color: #fff;
-    --corner-button-background-color: #fff;
+    --corner-button-background-color: hsl(32, 32%, 92%);
     --corner-button-color: #350a4e;
     color-scheme: light;
 
@@ -149,7 +149,7 @@
         --statement-image-background-color: #171510;
         --text-label-background-color: hsl(270, 4%, 18%);
         --text-label-color: #fff;
-        --corner-button-background-color: #fff;
+        --corner-button-background-color: hsl(32, 32%, 92%);
         --corner-button-color: #350a4e;
         color-scheme: light;
         
@@ -1043,11 +1043,13 @@ textarea {
 
     footer {
         background-color: transparent;
+        color: transparent;
 }
 
     #footer {
         display: none;
         background-color: #d8d6d000;
+        color: transparent;
     }
 }
 
@@ -1082,8 +1084,9 @@ textarea {
         font-weight: 800;
     }
     #second-title1 {
-        font-size: 22px;
+        font-size: 18px;
     }
+
     #new-moon-icon-page1 {
         font-size: 12x;
     }
@@ -1108,24 +1111,28 @@ textarea {
 
 @media (max-width: 450px) {
     .case-intro, .logic-rules {
-        max-width: 250px;  
+        max-width: 250px;
     }
 
     .content-home {
         position: absolute;
         margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     .group-suspects {
         margin-top: 338px;
+        margin-bottom: 50px;
     }
 
     .group-locations {
         margin-top: 250px;
+        margin-bottom: 50px;
     }
 
     .group-weapons {
         margin-top: 290px;
+        margin-bottom: 50px;
     }
 
     .lady-violet, .vice-president-mauve, .duchess-vermillion, .fire-section, .ruins-section, .forest-section, .cauldron-section, .log-section, .broom-section, .statement1, .statement2, .statement3, .clue1, .clue2 {
@@ -1149,6 +1156,7 @@ textarea {
         width: 300px;
         margin-top: 0;
         text-align: center;
+        margin-bottom: 50px;
     }
     .statement-text, .clues-text {
         font-size: 18px;
