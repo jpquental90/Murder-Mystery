@@ -1130,19 +1130,19 @@ textarea {
     }
 
     .group-suspects {
-        padding-bottom: 40px;
+        padding-top: 40px;
         padding-bottom: 140px;
         margin-bottom: 50px;
     }
 
     .group-locations {
-        padding-bottom: 40px;
+        padding-top: 40px;
         padding-bottom: 140px;
         margin-bottom: 50px;
     }
 
     .group-weapons {
-        padding-bottom: 40px;
+        padding-top: 40px;
         padding-bottom: 140px;
         margin-bottom: 50px;
     }
