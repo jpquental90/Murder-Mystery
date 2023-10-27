@@ -1182,12 +1182,6 @@ textarea {
         font-size: 20px;
         padding-right: 10px;
 }
-
-    .main-page-2 {
-        min-height: auto;
-        margin-bottom: 60px;
-    }
-
 }
 
 @media (max-height: 950px) {
