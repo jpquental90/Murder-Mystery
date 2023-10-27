@@ -1166,6 +1166,8 @@ textarea {
         margin-top: 0;
         text-align: center;
         margin-bottom: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
 
     .statement-text, .clues-text {
@@ -1234,13 +1236,6 @@ textarea {
 }
 }
 
-@media (max-height: 650px) {
-    .group-suspects, .group-locations, .group-weapons {
-        top: 110%;
-}
-
-}
-
 @media (max-height: 620px) {
     .content-home {
        top: 80%;
@@ -1250,15 +1245,15 @@ textarea {
     }
 
     .group-locations, .group-weapons {
-        top: 140%;
+        top: 150%;
 }
 
     .group-suspects {
-        top: 170%;
+        top: 180%;
     }
 
     .clues-content, .statements-content {
-        top: 30%;
+        top: 20%;
     }
 }
 
@@ -1267,10 +1262,10 @@ textarea {
        top: 85%;
     }
     .group-locations, .group-weapons {
-        top: 150%;
+        top: 160%;
 }
     .group-suspects {
-        top: 165%;
+        top: 190%;
 }
 
 }
