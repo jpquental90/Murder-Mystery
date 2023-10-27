@@ -240,7 +240,6 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 36px;
     font-family: 'Handlee', sans-serif;
     overflow: auto;
 }
@@ -272,7 +271,10 @@ footer {
     background-color:#e7e2e2a2 ;
     margin-bottom: 40px;
     margin-top:20px;
-    
+}
+
+#main-title1 {
+    font-size: 36px;
 }
 
 #second-title1 {
@@ -1046,16 +1048,10 @@ textarea {
     }
 
     footer {
-        background-color: transparent;
-        color: transparent;
-        display: none;
-}
-
-    #footer {
-        display: none;
-        background-color: #d8d6d000;
-        color: transparent;
+        font-size: 5px;
+        height:8px;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -1092,7 +1088,7 @@ textarea {
     }
 
     #new-moon-icon-page1 {
-        font-size: 12x;
+        font-size: 20px;
     }
 
     .header-page-2 {
@@ -1175,6 +1171,13 @@ textarea {
         padding-right: 10px;
 }
 
+    .main-page-2 {
+        min-height: auto;
+    }
+
+    .body-page-2 {
+        min-height: auto;
+}
 }
 
 @media (max-height: 950px) {
@@ -1234,6 +1237,7 @@ textarea {
     .content-home {
        top: 80%;
     }
+
     .group-suspects, .group-locations, .group-weapons {
         top: 120%;
 }
