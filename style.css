@@ -275,6 +275,10 @@ footer {
     
 }
 
+#second-title1 {
+    font-size: 25px;
+}
+
 #content-page-1a {
     margin-top: 5px;
     font-size: 20px;
@@ -1044,6 +1048,7 @@ textarea {
     footer {
         background-color: transparent;
         color: transparent;
+        display: none;
 }
 
     #footer {
@@ -1063,7 +1068,6 @@ textarea {
     }
     
     #header-page-1 {
-        font-size: 18px;
         margin-bottom: 20px;
         margin-top:10px;
         width: 300px;
@@ -1116,22 +1120,22 @@ textarea {
 
     .content-home {
         position: absolute;
-        margin-top: 20px;
+
         margin-bottom: 50px;
     }
 
     .group-suspects {
-        margin-top: 338px;
+
         margin-bottom: 50px;
     }
 
     .group-locations {
-        margin-top: 250px;
+
         margin-bottom: 50px;
     }
 
     .group-weapons {
-        margin-top: 290px;
+
         margin-bottom: 50px;
     }
 
