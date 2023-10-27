@@ -1126,6 +1126,7 @@ textarea {
         overflow: auto;
         margin-bottom: 150px;
         height: auto;
+        padding-bottom: 115px;;
     }
 
     .group-suspects {
