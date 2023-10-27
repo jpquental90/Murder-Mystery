@@ -393,7 +393,7 @@ footer {
     background-repeat: no-repeat;
     overflow: auto;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     left: 80px;
     transition: all 0.5s ease;
     width: calc(100% - 80px);
@@ -1130,16 +1130,19 @@ textarea {
     }
 
     .group-suspects {
+        padding-bottom: 40px;
         padding-bottom: 140px;
         margin-bottom: 50px;
     }
 
     .group-locations {
+        padding-bottom: 40px;
         padding-bottom: 140px;
         margin-bottom: 50px;
     }
 
     .group-weapons {
+        padding-bottom: 40px;
         padding-bottom: 140px;
         margin-bottom: 50px;
     }
