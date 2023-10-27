@@ -832,255 +832,6 @@ textarea {
 }
 
 
-@media (max-width: 1200px) {
-    .text-box {
-        right: -200px;
-        max-width: 200px;
-    }
-}
-
-@media (max-width: 781px) {
-    
-    .case-intro, .logic-rules {
-        max-width: 300px;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .home-image, .statement-image, .clues-image {
-        display: none;
-    }
-
-    .group-suspects, .group-locations, .group-weapons {
-        margin-top: 200px;
-        max-width: 400px;
-    }
-
-    .lady-violet, .vice-president-mauve, .duchess-vermillion, .fire-section, .ruins-section, .forest-section, .cauldron-section, .log-section, .broom-section, .statement1, .statement2, .statement3, .clue1, .clue2 {
-        height: auto;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .suspect-image, .location-image, .weapon-image, .statement-image {
-        flex-direction: row;
-    }
-    
-    .suspect-image, .location-image, .weapon-image, .statement-image {
-        max-width: 250px;
-    }
-
-    .suspect-text, .location-text, .weapon-text, .statement-text, .case-intro-text, .logic-rules-text {
-        max-width: 350px;
-        text-align: center;
-    }
-    
-    .suspect-description,.location-description, .weapon-description, .case-intro-text, .logic-rules-text {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    
-    .clues-content, .statements-content {
-        margin-top: 50px;
-        max-width: 400px;
-        text-align: center;
-    }
-
-    .statement-text, .clues-text {
-        font-size: 20px;
-    }
-    
-    .header-page-2 {
-        padding-left: 30px;
-    }
-
-    #main-title {
-        font-size: 30px;
-        padding-bottom: 7px;
-    }
-
-    #home-header, #suspects-header, #locations-header, #weapons-header, #clues-header, #statements-header {
-        font-size: 23px;
-    }
-    footer {
-        background-color: transparent;
-}
-
-    #footer {
-        display: none;
-        background-color: #d8d6d000;
-    }
-}
-
-@media (max-width: 600px) {
-    .page-1-container {
-        max-width: 350px;
-    }
-
-    .page-1-text {
-        width: 300px;
-    }
-    
-    #header-page-1 {
-        font-size: 18px;
-        margin-bottom: 20px;
-        margin-top:10px;
-        width: 300px;
-    }
-    
-    #content-page-1a {
-        font-size: 14px;
-    }
-    
-    #question1 {
-        margin-top: 5px;
-        font-size: 14px;
-    }
-    
-    #main-title1 {
-        font-size: 24px;
-        text-align: center;
-    }
-    #second-title1 {
-        font-size: 22px;
-    }
-    #new-moon-icon-page1 {
-        font-size: 12x;
-    }
-}
-
-@media (max-height: 950px) {
-    .group-suspects, .group-locations, .group-weapons {
-        top: 85%;
-}
-}
-
-@media (max-height: 850px) {
-    .group-suspects, .group-locations, .group-weapons {
-        top: 95%;
-}
-
-    .content-home {
-        top: 65%;
- }
-
-     .statements-content, .clues-content {
-        top: 55%;
- }
-}
-
-@media (max-height: 750px) {
-    .group-suspects, .group-locations, .group-weapons {
-        top: 105%;
-}
-    .content-home {
-        top: 75%;
-}
-
-    .statements-content, .clues-content {
-        top: 60%;
-}
-}
-
-@media (max-height: 700px) {
-    .group-suspects, .group-locations, .group-weapons {
-        top: 115%;
-}
-    .content-home {
-        top: 80%;
-}
-
-    .statements-content, .clues-content {
-        top: 65%;
-}
-}
-
-@media (max-height: 650px) {
-    .group-suspects, .group-locations, .group-weapons {
-        top: 110%;
-}
-
-}
-
-@media (max-height: 620px) {
-    .content-home {
-       top: 80%;
-    }
-    .group-suspects, .group-locations, .group-weapons {
-        top: 120%;
-}
-
-    .clues-content, .statements-content {
-        top: 65%;
-    }
-}
-
-@media (max-height: 575px) {
-    .content-home {
-       top: 85%;
-    }
-    .group-suspects, .group-locations, .group-weapons {
-        top: 130%;
-}
-
-    .clues-content, .statements-content {
-        top: 70%;
-    }
-}
-
-@media (max-height: 530px) {
-    .content-home {
-        top: 90%;
-    }
-    .group-suspects, .group-locations, .group-weapons {
-        top: 135%;
-}
-    .clues-content, .statements-content {
-        top: 75%;
-}
-}
-
-@media (max-height: 500px) {
-    .content-home {
-        top: 100%;
-    }
-    .group-suspects, .group-locations, .group-weapons {
-        top: 150%;
-}
-    .clues-content, .statements-content {
-        top: 85%;
-}
-}
-
-@media (max-height: 450px) {
-    .content-home {
-        top: 100%;
-    }
-    .group-locations, .group-weapons {
-        top: 170%;
-}
-    .group-suspects {
-        top: 175%;
-}
-    .clues-content, .statements-content {
-        top: 85%;
-}
-}
-
-@media (max-height: 300px) {
-    .content-home {
-        top: 140%;
-    }
-    .group-suspects, .group-locations, .group-weapons {
-        top: 180%;
-}
-    .group-suspects, .group-locations, .group-weapons {
-        top: 185%;
-}
-    .clues-content, .statements-content {
-        top: 95%;
-}
-}
-
 
 /*HTML 3*/
 .body-page-3 {
@@ -1218,9 +969,370 @@ textarea {
     color: black;
 }
 
+
+@media (max-width: 1200px) {
+    .text-box {
+        right: -200px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 781px) {
+    
+    .case-intro, .logic-rules {
+        max-width: 300px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .home-image, .statement-image, .clues-image {
+        display: none;
+    }
+
+    .group-suspects, .group-locations, .group-weapons {
+        margin-top: 200px;
+        max-width: 400px;
+    }
+
+    .lady-violet, .vice-president-mauve, .duchess-vermillion, .fire-section, .ruins-section, .forest-section, .cauldron-section, .log-section, .broom-section, .statement1, .statement2, .statement3, .clue1, .clue2 {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .suspect-image, .location-image, .weapon-image, .statement-image {
+        flex-direction: row;
+    }
+    
+    .suspect-image, .location-image, .weapon-image, .statement-image {
+        max-width: 250px;
+    }
+
+    .suspect-text, .location-text, .weapon-text, .statement-text, .case-intro-text, .logic-rules-text {
+        max-width: 350px;
+        text-align: center;
+    }
+    
+    .suspect-description,.location-description, .weapon-description, .case-intro-text, .logic-rules-text {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .clues-content, .statements-content {
+        margin-top: 50px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .statement-text, .clues-text {
+        font-size: 20px;
+    }
+    
+    .header-page-2 {
+        padding-left: 30px;
+    }
+
+    #main-title {
+        font-size: 30px;
+        padding-bottom: 7px;
+        min-width: 200px;
+    }
+
+    #home-header, #suspects-header, #locations-header, #weapons-header, #clues-header, #statements-header {
+        font-size: 23px;
+    }
+
+    footer {
+        background-color: transparent;
+}
+
+    #footer {
+        display: none;
+        background-color: #d8d6d000;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-1-container {
+        max-width: 350px;
+    }
+
+    .page-1-text {
+        width: 300px;
+    }
+    
+    #header-page-1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top:10px;
+        width: 300px;
+    }
+    
+    #content-page-1a {
+        font-size: 14px;
+    }
+    
+    #question1 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    
+    #main-title1 {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 800;
+    }
+    #second-title1 {
+        font-size: 22px;
+    }
+    #new-moon-icon-page1 {
+        font-size: 12x;
+    }
+
+    .header-page-2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #main-title {
+        font-size: 22px;
+        padding-bottom: 7px;
+        min-width: 150px;
+    }
+
+    .page-header {
+        top: 21px;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .case-intro, .logic-rules {
+        max-width: 250px;  
+    }
+
+    .content-home {
+        position: absolute;
+        margin-top: 20px;
+    }
+
+    .group-suspects {
+        margin-top: 338px;
+    }
+
+    .group-locations {
+        margin-top: 250px;
+    }
+
+    .group-weapons {
+        margin-top: 290px;
+    }
+
+    .lady-violet, .vice-president-mauve, .duchess-vermillion, .fire-section, .ruins-section, .forest-section, .cauldron-section, .log-section, .broom-section, .statement1, .statement2, .statement3, .clue1, .clue2 {
+        max-width: 300px;
+    }
+   
+    .suspect-image, .location-image, .weapon-image, .statement-image {
+        max-width: 250px;
+    }
+
+    .suspect-text, .location-text, .weapon-text, .statement-text, .case-intro-text, .logic-rules-text {
+        max-width: 250px;
+    }
+    
+    .clues-content {
+        width: 300px;
+        margin-top: 0;
+        text-align: center;
+    }
+    .clues-content, .statements-content {
+        width: 300px;
+        margin-top: 0;
+        text-align: center;
+    }
+    .statement-text, .clues-text {
+        font-size: 18px;
+    }
+
+    .sidebar ul li:hover .tooltip {
+        opacity: 0;
+}
+
+    #new-moon-icon-page2 {
+        font-size: 20px;
+        padding-right: 10px;
+}
+
+}
+
+@media (max-height: 950px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 85%;
+}
+}
+
+@media (max-height: 850px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 95%;
+}
+
+    .content-home {
+        top: 65%;
+ }
+
+     .statements-content, .clues-content {
+        top: 55%;
+ }
+}
+
+@media (max-height: 750px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 105%;
+}
+    .content-home {
+        top: 75%;
+}
+
+    .statements-content, .clues-content {
+        top: 60%;
+}
+}
+
+@media (max-height: 700px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 115%;
+}
+    .content-home {
+        top: 80%;
+}
+
+    .statements-content, .clues-content {
+        top: 65%;
+}
+}
+
+@media (max-height: 650px) {
+    .group-suspects, .group-locations, .group-weapons {
+        top: 110%;
+}
+
+}
+
+@media (max-height: 620px) {
+    .content-home {
+       top: 80%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 120%;
+}
+
+    .clues-content, .statements-content {
+        top: 65%;
+    }
+}
+
+@media (max-height: 575px) {
+    .content-home {
+       top: 85%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 130%;
+}
+
+    .clues-content, .statements-content {
+        top: 70%;
+    }
+}
+
+@media (max-height: 530px) {
+    .content-home {
+        top: 90%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 135%;
+}
+    .clues-content, .statements-content {
+        top: 75%;
+}
+}
+
+@media (max-height: 500px) {
+    .content-home {
+        top: 100%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 150%;
+}
+    .clues-content, .statements-content {
+        top: 85%;
+}
+}
+
+@media (max-height: 450px) {
+    .content-home {
+        top: 100%;
+    }
+    .group-locations, .group-weapons {
+        top: 170%;
+}
+    .group-suspects {
+        top: 175%;
+}
+    .clues-content, .statements-content {
+        top: 85%;
+}
+}
+
+@media (max-height: 300px) {
+    .content-home {
+        top: 140%;
+    }
+    .group-suspects, .group-locations, .group-weapons {
+        top: 180%;
+}
+    .group-suspects, .group-locations, .group-weapons {
+        top: 185%;
+}
+    .clues-content, .statements-content {
+        top: 95%;
+}
+}
+
+
+
+
 @media (max-width: 768px) { 
     .app {
         width: 95%;
         min-width:275px;
+    }
+}
+
+@media (max-width: 450px) {
+    
+    .app {
+        min-width:170px;
+        margin-bottom: 100px;
+    }
+
+    .app h1, #new-moon-icon-page3 {
+        font-size: 25px;
+}
+    .app h2 {
+        font-size: 22px;
+    }
+    .quiz h3 {
+        font-size: 20px;
+    }
+
+    .btn-answer{
+        font-size: 16px;
+    }
+
+    #answer-buttons {
+        margin: 15px 0 15px 0;
+    }
+    #next-btn{
+        margin: 5px auto 0;
     }
 }
