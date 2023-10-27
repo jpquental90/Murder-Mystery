@@ -1250,15 +1250,15 @@ textarea {
     }
 
     .group-locations, .group-weapons {
-        top: 130%;
+        top: 140%;
 }
 
     .group-suspects {
-        top: 150%;
+        top: 160%;
     }
 
     .clues-content, .statements-content {
-        top: 40%;
+        top: 20%;
     }
 }
 
@@ -1267,14 +1267,12 @@ textarea {
        top: 85%;
     }
     .group-locations, .group-weapons {
-        top: 140%;
+        top: 150%;
 }
     .group-suspects {
         top: 165%;
 }
-    .clues-content, .statements-content {
-        top: 50%;
-    }
+
 }
 
 @media (max-height: 530px) {
@@ -1284,9 +1282,7 @@ textarea {
     .group-suspects, .group-locations, .group-weapons {
         top: 170%;
 }
-    .clues-content, .statements-content {
-        top: 65%;
-}
+
 }
 
 @media (max-width: 768px) { 
