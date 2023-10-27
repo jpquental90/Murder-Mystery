@@ -1120,7 +1120,7 @@ textarea {
 
     .content-home {
         position: absolute;
-
+        overflow: auto;
         margin-bottom: 50px;
     }
 
