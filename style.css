@@ -901,6 +901,51 @@ textarea {
     #home-header, #suspects-header, #locations-header, #weapons-header, #clues-header, #statements-header {
         font-size: 23px;
     }
+    footer {
+        background-color: transparent;
+}
+
+    #footer {
+        display: none;
+        background-color: #d8d6d000;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-1-container {
+        max-width: 350px;
+    }
+
+    .page-1-text {
+        width: 300px;
+    }
+    
+    #header-page-1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top:10px;
+        width: 300px;
+    }
+    
+    #content-page-1a {
+        font-size: 14px;
+    }
+    
+    #question1 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    
+    #main-title1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    #second-title1 {
+        font-size: 22px;
+    }
+    #new-moon-icon-page1 {
+        font-size: 12x;
+    }
 }
 
 @media (max-height: 950px) {
