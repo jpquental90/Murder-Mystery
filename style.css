@@ -1166,7 +1166,6 @@ textarea {
         margin-top: 0;
         text-align: center;
         margin-bottom: 50px;
-        padding-bottom: 140px;
     }
 
     .statement-text, .clues-text {
@@ -1251,15 +1250,15 @@ textarea {
     }
 
     .group-locations, .group-weapons {
-        top: 120%;
+        top: 130%;
 }
 
     .group-suspects {
-        top: 140%;
+        top: 150%;
     }
 
     .clues-content, .statements-content {
-        top: 55%;
+        top: 40%;
     }
 }
 
@@ -1267,12 +1266,14 @@ textarea {
     .content-home {
        top: 85%;
     }
-    .group-suspects, .group-locations, .group-weapons {
-        top: 130%;
+    .group-locations, .group-weapons {
+        top: 140%;
 }
-
+    .group-suspects {
+        top: 165%;
+}
     .clues-content, .statements-content {
-        top: 70%;
+        top: 50%;
     }
 }
 
@@ -1281,57 +1282,12 @@ textarea {
         top: 90%;
     }
     .group-suspects, .group-locations, .group-weapons {
-        top: 135%;
-}
-    .clues-content, .statements-content {
-        top: 75%;
-}
-}
-
-@media (max-height: 500px) {
-    .content-home {
-        top: 100%;
-    }
-    .group-suspects, .group-locations, .group-weapons {
-        top: 150%;
-}
-    .clues-content, .statements-content {
-        top: 85%;
-}
-}
-
-@media (max-height: 450px) {
-    .content-home {
-        top: 100%;
-    }
-    .group-locations, .group-weapons {
         top: 170%;
 }
-    .group-suspects {
-        top: 175%;
-}
     .clues-content, .statements-content {
-        top: 85%;
+        top: 65%;
 }
 }
-
-@media (max-height: 300px) {
-    .content-home {
-        top: 140%;
-    }
-    .group-suspects, .group-locations, .group-weapons {
-        top: 180%;
-}
-    .group-suspects, .group-locations, .group-weapons {
-        top: 185%;
-}
-    .clues-content, .statements-content {
-        top: 95%;
-}
-}
-
-
-
 
 @media (max-width: 768px) { 
     .app {
