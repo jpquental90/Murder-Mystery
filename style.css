@@ -1126,21 +1126,21 @@ textarea {
         overflow: auto;
         margin-bottom: 150px;
         height: auto;
-        padding-bottom: 140px;;
+        padding-bottom: 140px;
     }
 
     .group-suspects {
-
+        padding-bottom: 140px;
         margin-bottom: 50px;
     }
 
     .group-locations {
-
+        padding-bottom: 140px;
         margin-bottom: 50px;
     }
 
     .group-weapons {
-
+        padding-bottom: 140px;
         margin-bottom: 50px;
     }
 
@@ -1166,7 +1166,9 @@ textarea {
         margin-top: 0;
         text-align: center;
         margin-bottom: 50px;
+        padding-bottom: 140px;
     }
+
     .statement-text, .clues-text {
         font-size: 18px;
     }
@@ -1248,12 +1250,16 @@ textarea {
        height: auto;
     }
 
-    .group-suspects, .group-locations, .group-weapons {
+    .group-locations, .group-weapons {
         top: 120%;
 }
 
+    .group-suspects {
+        top: 140%;
+    }
+
     .clues-content, .statements-content {
-        top: 65%;
+        top: 55%;
     }
 }
 
