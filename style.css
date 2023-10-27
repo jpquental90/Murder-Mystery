@@ -1122,26 +1122,19 @@ textarea {
     }
 
     .content-home {
-        position: absolute;
-        overflow: auto;
-        margin-bottom: 150px;
-        height: auto;
         padding-bottom: 140px;
     }
 
     .group-suspects {
         padding-bottom: 140px;
-        margin-bottom: 50px;
     }
 
     .group-locations {
         padding-bottom: 140px;
-        margin-bottom: 50px;
     }
 
     .group-weapons {
         padding-bottom: 140px;
-        margin-bottom: 50px;
     }
 
     .lady-violet, .vice-president-mauve, .duchess-vermillion, .fire-section, .ruins-section, .forest-section, .cauldron-section, .log-section, .broom-section, .statement1, .statement2, .statement3, .clue1, .clue2 {
@@ -1156,11 +1149,6 @@ textarea {
         max-width: 250px;
     }
     
-    .clues-content {
-        width: 300px;
-        margin-top: 0;
-        text-align: center;
-    }
     .clues-content, .statements-content {
         width: 300px;
         margin-top: 0;
