@@ -1122,18 +1122,22 @@ textarea {
     }
 
     .content-home {
+
         padding-bottom: 140px;
     }
 
     .group-suspects {
+        padding-top: 40px;
         padding-bottom: 140px;
     }
 
     .group-locations {
+        padding-top: 30px;
         padding-bottom: 140px;
     }
 
     .group-weapons {
+        padding-top: 30px;
         padding-bottom: 140px;
     }
 
