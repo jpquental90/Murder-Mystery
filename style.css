@@ -1217,7 +1217,7 @@ textarea {
 }
 
     .statements-content, .clues-content {
-        top: 60%;
+        top: 50%;
 }
 }
 
@@ -1230,7 +1230,7 @@ textarea {
 }
 
     .statements-content, .clues-content {
-        top: 65%;
+        top: 45%;
 }
 }
 
@@ -1254,11 +1254,11 @@ textarea {
 }
 
     .group-suspects {
-        top: 160%;
+        top: 170%;
     }
 
     .clues-content, .statements-content {
-        top: 20%;
+        top: 30%;
     }
 }
 
