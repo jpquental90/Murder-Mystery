@@ -1111,6 +1111,9 @@ textarea {
         font-size: 18px;
     }
 
+    .popup {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -1121,7 +1124,8 @@ textarea {
     .content-home {
         position: absolute;
         overflow: auto;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
+        height: auto;
     }
 
     .group-suspects {
@@ -1177,11 +1181,9 @@ textarea {
 
     .main-page-2 {
         min-height: auto;
+        margin-bottom: 60px;
     }
 
-    .body-page-2 {
-        min-height: auto;
-}
 }
 
 @media (max-height: 950px) {
@@ -1240,6 +1242,9 @@ textarea {
 @media (max-height: 620px) {
     .content-home {
        top: 80%;
+       overflow: auto;
+       margin-bottom: 150px;
+       height: auto;
     }
 
     .group-suspects, .group-locations, .group-weapons {
